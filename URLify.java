@@ -1,11 +1,12 @@
-// CCI pg.90, #1.2 Check Permutations
+// CCI pg.90, #1.3 Check Permutations
+//replace all non-contiguous spaces in a string with '%20'
 
 import java.util.*;
 
 class URLify {
 	public static void main(String[] args) {
-		String s = "Mr John Smith    ";
-		System.out.println(URLify(s, 13));
+		String s = "Mr Joe Smith    ";
+		System.out.println(URLify(s, 12));
 
 	}
 	public static char[] URLify(String s, int length) {
